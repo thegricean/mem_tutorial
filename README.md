@@ -11,7 +11,7 @@ The workshop is geared towards linguists interested in analyzing data from vario
 
 # Preparation
 
-We will be using R in this course. To get the most out of it, please bring your laptop and come with R and RStudio installed.
+We will be using R in this course. To get the most out of it, please bring your laptop and come with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) installed.
 
 If you have never used R before, I recommend working through chapters 1, 2, 4, and 5 of the Introduction to R on https://www.datacamp.com/home -- it sounds like a lot, but each "chapter" is actually just a few short exercises, and it'll get you used to writing basic R code. 
 
