@@ -19,6 +19,8 @@ If you have never used R before, I recommend working through chapters 1, 2, 4, a
 
 Apart from the very first session (and food sessions...) the workshop will consist of a mix of lectures on my part interwoven with practical exercises so everyone can get their hands dirty with data after the introduction of any new concept. On the first day we'll be focusing on the general concept of regression and its simplest instantiation, (mixed effects) linear regression for continuous data (e.g., response times, reading times, slider ratings). On the second day we'll turn to logistic regression for binary data (e.g., truth-value judgment data or any other binary choice) and ordinal regression ...for ordinal data (e.g., Likert scale ratings). I also want to spend a significant amount of time on data visualization with ggplot.
 
+I'll be adding code sheets here for participants to follow along with as I finalize them.
+
 When       | What               | Where | Slides / Readings / Resources
 ---------- | ------------------ | ----- | -----------------------------
 Fri 9:30-10 | Breakfast | Linguistics Department porch or hallway |
