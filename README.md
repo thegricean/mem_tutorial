@@ -40,12 +40,12 @@ Sat 2 - 3 | Mixed effects ordinal regression | Room 108 |
 
 # Resources
 
-The Bible of mixed effects models: Gelman, A., & Hill, J. (2006). Data analysis using regression and multilevel/hierarchical models. Cambridge University Press.
+- The Bible of mixed effects models: Gelman, A., & Hill, J. (2006). Data analysis using regression and multilevel/hierarchical models. Cambridge University Press.
 
-Baayen, R. H. (2008). [Analyzing linguistic data: A practical introduction to statistics using R](http://www.sfs.uni-tuebingen.de/~hbaayen/publications/baayenCUPstats.pdf). Cambridge University Press.
+- Baayen, R. H. (2008). [Analyzing linguistic data: A practical introduction to statistics using R](http://www.sfs.uni-tuebingen.de/~hbaayen/publications/baayenCUPstats.pdf). Cambridge University Press.
 
-Florian Jaeger's excellent collection of [resources for regression methods](https://wiki.bcs.rochester.edu/HlpLab/StatsCourses) (code sheets, slides, pointers to further resources)  on his HLPLab wiki
+- Florian Jaeger's excellent collection of [resources for regression methods](https://wiki.bcs.rochester.edu/HlpLab/StatsCourses) (code sheets, slides, pointers to further resources)  on his HLPLab wiki
 
-Shravan Vasishth's excellent [statistics lecture notes](https://github.com/vasishth/Statistics-lecture-notes-Potsdam/blob/master/IntroductoryStatistics/StatisticsNotesVasishth.pdf) on his statistics [github site](https://github.com/vasishth/Statistics-lecture-notes-Potsdam)
+- Shravan Vasishth's excellent [statistics lecture notes](https://github.com/vasishth/Statistics-lecture-notes-Potsdam/blob/master/IntroductoryStatistics/StatisticsNotesVasishth.pdf) on his statistics [github site](https://github.com/vasishth/Statistics-lecture-notes-Potsdam)
 
 
