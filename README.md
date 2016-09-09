@@ -28,7 +28,7 @@ Fri 10 - 10:30 | Workshop overview | Room 108 |
 Fri 11 - 12 | R basics and linear regression | Room 108 | 
 Fri 12 - 1 | Lunch | Linguistics Department  |
 Fri 1 - 3 | Mixed effects linear regression | Language Lab next door to Linguistics Department |
-Fri 3 - 5:30 | Individual meetings or "Bring your own dataset!" | Language Lab or Department Basement |
+Fri 3 - 5:30 | Individual meetings or bring your own dataset! | Language Lab or Department Basement |
 Fri 5:30 - 8 | Dinner | Linguistics Department Basement |
 Sat 9:30 - 10 | Breakfast | Linguistics Department porch or hallway |
 Sat 10 - 11 | Coding schemes | Room 108 |
