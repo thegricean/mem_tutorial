@@ -40,6 +40,7 @@ contrasts(lexdec$NativeLanguage)
 
 # Let's extend the model to include the interaction between frequency and native language. These are two equivalent ways of doing that:
 m = lm(RT ~ Frequency + FamilySize + NativeLanguage + Frequency:NativeLanguage, data=lexdec)
+summary(m)
 
 m = lm(RT ~ FamilySize + Frequency*NativeLanguage, data=lexdec)
 summary(m)

@@ -1,0 +1,93 @@
+---
+title: "Mixed effects models tutorial -- linear regression"
+author: "jdegen"
+date: "Sep 16, 2016"
+output: html_document
+---
+
+Set the path to your working directory. In case we save any output along the way, you'll know where to find it. You can see your working directory with `getwd()`.
+
+```{r}
+setwd("/Users/titlis/cogsci/teaching/_2016/mem_tutorial/")
+```
+  
+Load the `languageR` package. If it's not yet installed you'll get an error saying "Error in library(languageR) : there is no package called ‘languageR’". To install the package, first type and execute `install.packages("languageR")`. (This generalizes to any package, using the name of the package instead of "languageR".)
+
+```{r}
+library(languageR)
+```
+
+This will also load the lexical decision time dataset from Baayen et al (2006), which we will be modeling extensively. To see two different summaries of the dataset and the first few lines:
+
+```{r}
+summary(lexdec)
+str(lexdec)
+head(lexdec)
+```
+
+To get information about the dataset provided by the authors:
+```{r}
+?lexdec
+```
+
+We are interested in modeling response times (coded in the data frame as 'RT'). The first step is always to understand some basic things about your data.
+
+1. How many data points are there?
+
+```{r}
+nrow(lexdec)
+```
+
+2. How many unique participants are there?
+
+```{r}
+length(levels(lexdec$Subject))
+```
+
+3. What is the mean, minimum, maximum, and standard deviation of the response times?
+
+```{r}
+mean(lexdec$RT)
+min(lexdec$RT)
+max(lexdec$RT)
+sd(lexdec$RT)
+```
+
+Let's start with a simple model -- see slides. 
+We start by asking whether frequency has a linear effect on log RTs:
+
+```{r}
+m = lm(RT ~ Frequency, data=lexdec)
+summary(m)
+```
+
+Extend the simple model to include an additional predictor for morphological family size. If you don't remember the name of the family size column in the model, use the `names` command.
+
+```{r}
+names(lexdec)
+m = lm(RT ~ Frequency + FamilySize, data=lexdec)
+summary(m)
+```
+
+Extend the model to include a predictor for participants’ native language (English vs other). By default R dummy-codes categorical predictors. It assigns 0 and 1 to the predictors in alphabetical order. If you're not sure how a predictor is coded (or if you want to change the default coding), you can use the `contrasts()` function.
+
+```{r}
+m = lm(RT ~ Frequency + FamilySize + NativeLanguage, data=lexdec)
+summary(m)
+contrasts(lexdec$NativeLanguage)
+```
+
+Extend the model to include the interaction between frequency and native language.
+
+```{r}
+m = lm(RT ~ Frequency + FamilySize + NativeLanguage + Frequency:NativeLanguage, data=lexdec)
+m = lm(RT ~ FamilySize + Frequency*NativeLanguage, data=lexdec)
+summary(m)
+```
+
+Simple effects analysis of the interaction: the slope is more negative for L2 speakers than for native speakers.
+
+```{r}
+m = lm(RT ~ FamilySize + Frequency*NativeLanguage - Frequency, data=lexdec)
+summary(m)
+```
