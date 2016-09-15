@@ -24,8 +24,8 @@ I'll be adding code sheets here for participants to follow along with as I final
 When       | What               | Where | Slides / Readings / Resources
 ---------- | ------------------ | ----- | -----------------------------
 Fri 9:30-10 | Breakfast | Linguistics Department porch or hallway |
-Fri 10 - 10:30 | Workshop overview | Room 108 | [slides](1_overview.pdf)
-Fri 11 - 12 | R basics and linear regression | Room 108 | [slides](2_linear_regression.pdf)
+Fri 10 - 10:30 | Workshop overview | Room 108 | [slides](slides/1_overview.pdf)
+Fri 11 - 12 | R basics and linear regression | Room 108 | [slides](slides/2_linear_regression.pdf)
 Fri 12 - 1 | Lunch | Linguistics Department  |
 Fri 1 - 3 | Mixed effects linear regression | Language Lab next door to Linguistics Department |
 Fri 3 - 5:30 | Individual meetings or bring your own dataset! | Language Lab or Department Basement |
