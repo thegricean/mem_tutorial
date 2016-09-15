@@ -40,9 +40,13 @@ Sat 2 - 3 | Mixed effects ordinal regression | Room 108 |
 
 # Resources
 
+## Books
+
 - The Bible of mixed effects models: Gelman, A., & Hill, J. (2006). Data analysis using regression and multilevel/hierarchical models. Cambridge University Press.
 
 - Baayen, R. H. (2008). [Analyzing linguistic data: A practical introduction to statistics using R](http://www.sfs.uni-tuebingen.de/~hbaayen/publications/baayenCUPstats.pdf). Cambridge University Press.
+
+## Blogs / slides / lecture notes / videos / email lists
 
 - Florian Jaeger's excellent collection of [resources for regression methods](https://wiki.bcs.rochester.edu/HlpLab/StatsCourses) (code sheets, slides, pointers to further resources)  on his HLPLab wiki
 
@@ -50,4 +54,9 @@ Sat 2 - 3 | Mixed effects ordinal regression | Room 108 |
 
 - Andrew Ng's excellent Coursera course on Machine Learning for great video explanations of linear and logistic regression
 
+- Subscribe to the [ling-R-lang](https://mailman.ucsd.edu/mailman/listinfo/ling-r-lang-l) list
 
+- In R: try `?foo`
+
+
+## Papers
