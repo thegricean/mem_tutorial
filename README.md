@@ -1,5 +1,5 @@
 # Rutgers Statistics Workshop: Mixed Effects Models for Linguists
-Materials created by Judith Degen, drawing on materials by Florian Jaeger, Maureen Gillespie, Peter Graff, and Dave Kleinschmidt
+Materials created by Judith Degen, drawing on materials by Florian Jaeger, Maureen Gillespie, Peter Graff, Dave Kleinschmidt, Roger Levy, and Victor Kuperman
 
 # Lecturer
 
