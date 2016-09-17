@@ -31,10 +31,11 @@ Fri 1 - 3 | Mixed effects linear regression | Language Lab next door to Linguist
 Fri 3 - 5:30 | Individual meetings / bring your own dataset! | Language Lab or Department Basement |
 Fri 5:30 - 8 | Dinner | Linguistics Department Basement |
 Sat 9:30 - 10 | Breakfast | Linguistics Department porch or hallway |
-Sat 10 - 11 | Mixed effects logistic regression | Room 108 |
-Sat 11 - 12 | Common issues in MEMs & solutions  | Room 108 |
-Sat 12 - 1 | Lunch | Linguistics Department|
-Sat 1 - 3 | Visualizing your data: mastering ggplot | Room 108 |
+Sat 10 - 11 | Data wrangling in R | Room 108 | [code sheet](code_sheets/3_reformatting_data_withprompts.R)
+Sat 11 - 12 | Mixed effects logistic regression  | Room 108 |
+Sat 12 - 1 | Lunch | Linguistics Department |
+Sat 1 - 2 | Common issues in MEMs & solutions |
+Sat 2 - 3 | Visualizing your data: mastering ggplot | Room 108 |
 
 
 # Resources
