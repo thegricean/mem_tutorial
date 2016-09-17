@@ -18,13 +18,19 @@ lexdec$Correct = factor(lexdec$Correct, levels=c("incorrect", "correct"))
 contrasts(lexdec$Correct)
 
 # We start with a simple model. The syntax is the same as in the linear model, but we use the function glmer(). The only difference is the outcome variable and the family (assumed noise distribution) now is binomial.
+m = glmer(Correct ~ (1|Subject) + (1|Word), family="binomial", data=lexdec)
+summary(m)
+
 m = glmer(Correct ~ Frequency + (1|Subject) + (1|Word), family="binomial", data=lexdec)
 summary(m)
 
 # 1. What is the interpretation of the coefficients?
 
 # If we want to instead get the intercept for the grand mean, we need to center frequency first:
+source("code_sheets/helpers.R")
 centered = cbind(lexdec,myCenter(lexdec[,c("Frequency","NativeLanguage","FamilySize")]))
+head(centered)
+summary(centered)
 
 m = glmer(Correct ~ cFrequency + (1|Subject) + (1|Word), family="binomial", data=centered)
 summary(m)
