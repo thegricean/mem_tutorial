@@ -28,14 +28,13 @@ Fri 10 - 10:30 | Workshop overview | Room 108 | [slides](slides/1_overview.pdf)
 Fri 11 - 12 | R basics and linear regression | Room 108 | [slides](slides/2_linear_regression.pdf) / [code sheet](code_sheets/1_linear_regression_withprompts.R) / [solutions](http://rpubs.com/thegricean/209611)
 Fri 12 - 1 | Lunch | Linguistics Department  |
 Fri 1 - 3 | Mixed effects linear regression | Language Lab next door to Linguistics Department | [slides](slides/3_mixed_effects_lm.pdf) / [code sheet](code_sheets/2_mixed_effects_linear_regression_withprompts.R)
-Fri 3 - 5:30 | Individual meetings or bring your own dataset! | Language Lab or Department Basement |
+Fri 3 - 5:30 | Individual meetings / bring your own dataset! | Language Lab or Department Basement |
 Fri 5:30 - 8 | Dinner | Linguistics Department Basement |
 Sat 9:30 - 10 | Breakfast | Linguistics Department porch or hallway |
-Sat 10 - 11 | Coding schemes | Room 108 |
-Sat 11 - 12 | Mixed effects logistic regression | Room 108 |
+Sat 10 - 11 | Mixed effects logistic regression | Room 108 |
+Sat 11 - 12 | Common issues in MEMs & solutions  | Room 108 |
 Sat 12 - 1 | Lunch | Linguistics Department|
-Sat 1 - 2 | Visualizing your data: mastering ggplot | Room 108 |
-Sat 2 - 3 | Mixed effects ordinal regression | Room 108 |
+Sat 1 - 3 | Visualizing your data: mastering ggplot | Room 108 |
 
 
 # Resources
