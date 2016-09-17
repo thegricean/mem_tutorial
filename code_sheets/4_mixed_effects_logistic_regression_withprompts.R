@@ -17,7 +17,7 @@ contrasts(lexdec$Correct)
 lexdec$Correct = factor(lexdec$Correct, levels=c("incorrect", "correct"))
 contrasts(lexdec$Correct)
 
-# We start with a simple model
+# We start with a simple model. The syntax is the same as in the linear model, but we use the function glmer(). The only difference is the outcome variable and the family (assumed noise distribution) now is binomial.
 m = glmer(Correct ~ Frequency + (1|Subject) + (1|Word), family="binomial", data=lexdec)
 summary(m)
 
@@ -36,3 +36,10 @@ summary(m)
 m = glmer(Correct ~ cFrequency * cNativeLanguage + cFamilySize + (1|Subject) + (1|Word), family="binomial", data=centered)
 summary(m)
 
+lexdec$FittedProb = plogis(fitted(m))
+lexdec$numCorrect = ifelse(lexdec$Correct == "correct",1,0)
+ggplot(lexdec,aes(x=FittedProb,y=numCorrect)) +
+  geom_point()
+
+ggplot(lexdec,aes(x=Frequency,y=FittedProb)) +
+  geom_point()
