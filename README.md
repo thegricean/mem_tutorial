@@ -53,7 +53,7 @@ Sat 2 - 3 | Visualizing your data: mastering ggplot | Room 108 | [slides](slides
 
 - Andrew Ng's excellent Coursera course on Machine Learning for great video explanations of linear and logistic regression. You can also just watch the youtube videos directly, e.g. [this one](https://www.youtube.com/watch?v=n1qyTXRdWQg) which explains the very basics of linear regression.
 
-- In class we didn't get to ordinal or multinomial regression. [Here](https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf) is Rune Haubo Christensen's on ordinal regression (for ordinal data like Likert Scale ratings). [Here](http://www.ats.ucla.edu/stat/r/dae/mlogit.htm) is a tutorial on multinomial regression (for unordered categorical data with more than 2 levels, like the choice between referring to a referent by a name, a pronoun, or a definite description).
+- In class we didn't get to ordinal or multinomial regression. [Here](https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf) is Rune Haubo Christensen's tutorial on ordinal regression (for ordinal data like Likert Scale ratings). [Here](http://www.ats.ucla.edu/stat/r/dae/mlogit.htm) is a tutorial on multinomial regression (for unordered categorical data with more than 2 levels, like the choice between referring to a referent by a name, a pronoun, or a definite description).
 
 - Subscribe to the [ling-R-lang](https://mailman.ucsd.edu/mailman/listinfo/ling-r-lang-l) list
 
@@ -63,12 +63,12 @@ Sat 2 - 3 | Visualizing your data: mastering ggplot | Room 108 | [slides](slides
 
 ## Papers
 
-The debate on how to choose a random effects structure:
+#### The debate on how to choose a random effects structure:
 
 Barr, D. J., Levy, R., Scheepers, C., & Tily, H. J. (2013). [Random effects structure for confirmatory hypothesis testing: Keep it maximal](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3881361/). Journal of memory and language, 68(3), 255-278.
 
 Bates, D., Kliegl, R., Vasishth, S., & Baayen, H. (2015). [Parsimonious mixed models](http://arxiv.org/pdf/1506.04967.pdf). arXiv preprint arXiv:1506.04967. 
 
-Why mixed effects logistic regression is preferable to ANOVAs over proportions:
+#### Why mixed effects logistic regression is preferable to ANOVAs over proportions:
 
 Jaeger, T. F. (2008). [Categorical data analysis: Away from ANOVAs (transformation or not) and towards logit mixed models](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613284/). Journal of Memory and Language, 59(4), 434-446.
