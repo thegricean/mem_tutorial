@@ -55,9 +55,9 @@ Sat 2 - 3 | Visualizing your data: mastering ggplot | Room 108 | [slides](slides
 
 - In class we didn't get to ordinal or multinomial regression. [Here](https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf) is Rune Haubo Christensen's tutorial on ordinal regression (for ordinal data like Likert Scale ratings). [Here](http://www.ats.ucla.edu/stat/r/dae/mlogit.htm) is a tutorial on multinomial regression (for unordered categorical data with more than 2 levels, like the choice between referring to a referent by a name, a pronoun, or a definite description).
 
-- Subscribe to the [ling-R-lang](https://mailman.ucsd.edu/mailman/listinfo/ling-r-lang-l) list
+- Subscribe to the [ling-R-lang](https://mailman.ucsd.edu/mailman/listinfo/ling-r-lang-l) list -- language researchers with R(egression) problems and solutions.
 
-- In R: try `?foo`
+- For help in R: try `?foo`, where foo stands for the name of a function.
 
 - [Data wrangling with R cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
