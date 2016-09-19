@@ -1,6 +1,5 @@
 # Mixed effects logistic regression
 # created by jdegen on Sep 17, 2016
-
 setwd("/Users/titlis/cogsci/teaching/_2016/mem_tutorial/")
 library(lme4)
 library(languageR)
@@ -41,11 +40,3 @@ summary(m)
 
 m = glmer(Correct ~ cFrequency * cNativeLanguage + cFamilySize + (1|Subject) + (1|Word), family="binomial", data=centered)
 summary(m)
-
-lexdec$FittedProb = plogis(fitted(m))
-lexdec$numCorrect = ifelse(lexdec$Correct == "correct",1,0)
-ggplot(lexdec,aes(x=FittedProb,y=numCorrect)) +
-  geom_point()
-
-ggplot(lexdec,aes(x=Frequency,y=FittedProb)) +
-  geom_point()
