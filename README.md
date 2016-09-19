@@ -34,7 +34,7 @@ Sat 9:30 - 10 | Breakfast | Linguistics Department porch or hallway |
 Sat 10 - 11 | Data wrangling in R | Room 108 | [code](code_sheets/3_reformatting_data.R)
 Sat 11 - 12 | Mixed effects logistic regression  | Room 108 | [slides](slides/4_mixed_effects_logistic_regression.pdf) / [code](code_sheets/4_mixed_effects_logistic_regression.R )
 Sat 12 - 1 | Lunch | Linguistics Department |
-Sat 1 - 2 | Common issues in MEMs & solutions | Room 108 | [code](code_sheets/5_collinearity_modelcomparison.R)
+Sat 1 - 2 | Common issues in MEMs & solutions | Room 108 | [slides](slides/5_common_issues_solutions.pdf) / [code](code_sheets/5_collinearity_modelcomparison.R)
 Sat 2 - 3 | Visualizing your data: mastering ggplot | Room 108 | [slides](slides/6_visualization_ggplot.pdf) / [code](code_sheets/6_ggplot.R)
 
 # Resources
